@@ -1,13 +1,12 @@
 ---
-title: Home
+title: LZ
 sections:
   - section_id: hero
     type: section_hero
-    title: Hero Section
+    title: CloudFalcon
     image: images/5.jpg
     content: >-
-      This section can contain a subtitle or tagline. The recommended length is
-      one to three sentences, but can be changed as you prefer.
+      We love Everything as code (EaC) for managing all aspects of software development, delivery and management by defining and codifying the infrastructure, schema and pipelines used to create, maintain, iterate or expand app development, plus ***security*** in mind.
     actions:
       - label: Get Started
         url: /docs
@@ -16,87 +15,74 @@ sections:
     type: section_grid
     col_number: three
     grid_items:
-      - title: Documentation
+      - title: Infrastructure as code
         content: >-
-          Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam
-          a maximus mi. Quisque justo nunc, sollicitudin euismod euismod at,
-          tincidunt ut tellus. Vivamus rhoncus mattis varius.
+          Terraform and Packer
         actions:
-          - label: Get Started
+          - label: iac
             url: /docs
             style: link
-      - title: Blog
+      - title: Configuration as code
         content: >-
-          Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis
-          nunc non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
+          Ansible
         actions:
-          - label: View Posts
+          - label: cac
             url: /blog
             style: link
-      - title: Style Guide
+      - title: Pipeline as code
         content: >-
-          Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam
-          a maximus mi. Quisque justo nunc, sollicitudin euismod euismod at,
-          tincidunt ut tellus. Vivamus rhoncus mattis varius.
+          Jenkins
         actions:
-          - label: Learn More
+          - label: pac
             url: /style-guide
             style: link
   - section_id: text-img
     type: section_content
-    image: images/jamstack.svg
+    image: images/devops.png
     image_position: left
-    title: A Section With An Image
+    title: DevOps Journey
     content: >-
-      Nam pulvinar ante eu ultricies volutpat. Sed nulla nibh, dapibus sit amet
-      cursus quis, fringilla nec sapien. Vestibulum imperdiet nunc bibendum
-      consectetur lobortis.
+      DevOps starts with culture and drives toward tooling..
     actions:
-      - label: View Demo
+      - label: Help me!
         url: /docs/getting-started
         style: primary
-      - label: Get Started
+      - label: Learn more
         url: /docs/getting-started
         style: secondary
   - section_id: text-no-img
     type: section_content
-    title: A Section Without Image
+    title: Shift Left Practices
     content: >-
-      Nam pulvinar ante eu ultricies volutpat. Sed nulla nibh, dapibus sit amet
-      cursus quis, fringilla nec sapien. Vestibulum imperdiet nunc bibendum
-      consectetur lobortis.
+      Find and prevent defects early in the software delivery process. The idea is to improve quality by moving tasks to the left as early in the lifecycle as possible
     actions:
       - label: Get Started
         url: /docs/getting-started/installation
         style: primary
   - section_id: features-two-col
     type: section_grid
-    title: Sample Layouts
+    title: Security as code.
     subtitle: An optional subtitle of the section
     col_number: two
     grid_items:
-      - title: Overview
+      - title: Vault
         content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
-          fringilla, fringilla tortor at, pulvinar orci.
+          Security as a service
         actions:
           - label: Learn More
             url: /overview
             style: link
-      - title: Showcase
+      - title: SAST
         content: >-
-          Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam
-          a maximus mi. Quisque justo nunc, sollicitudin euismod euismod at,
-          tincidunt ut tellus. Vivamus rhoncus mattis varius.
+          checkov.
         actions:
           - label: Learn More
             url: /showcase
             style: link
   - section_id: cta
     type: section_cta
-    title: The Title of The Call to Action Block
-    subtitle: This is an optional description for the call to action block.
+    title: We provider IaC with security in mind solutions.
+    subtitle: Complete end-end automated and secured IaC.
     actions:
       - label: Get Started
         url: /docs/getting-started/installation
